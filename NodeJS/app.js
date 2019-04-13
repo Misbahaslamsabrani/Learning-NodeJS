@@ -18,11 +18,13 @@ console.log(process.argv[2])
 console.log(process.argv.username) */
 
 const yargs = require("yargs")
-/* console.log(yargs) */
-/* console.log(yargs.argv)
+/* console.log(yargs)
+console.log(yargs.argv)
 console.log(yargs.argv.username) */
 
-/* yargs.command({
+/* debugger
+
+yargs.command({
 command: "add",
 describe: "Adding Todo in the list",
 builder: {
@@ -40,13 +42,13 @@ handler(argv){
 
 }
 })
-yargs.parse(); */
-console.log(chalk.bold.red("Server Running...."))
+yargs.parse();  */
+console.log(chalk.bold.red("Server Running....")) 
 
 //https://github.com/yargs/yargs/blob/HEAD/docs/advanced.md#commands
 //http://yargs.js.org/docs/
 
-const fs = require("fs");
+/* const fs = require("fs");
 
 const obj = {name: "misbah", gender: "female"}
 const convOBj = JSON.stringify(obj);
@@ -66,3 +68,4 @@ try {
 catch (e) {
     console.log(e.message)
 }
+ */
